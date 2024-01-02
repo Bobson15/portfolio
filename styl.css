@@ -685,9 +685,6 @@ hr{
       aspect-ratio: 1;
       object-fit: cover;
     }
-    .contact h1{
-        font-size: 1em;
-    }
 }
 @media screen and (max-width: 850px){
     .contact-wrapper{
@@ -712,30 +709,21 @@ hr{
       line-height: 60px;
     }
     
-    #umiejetnosc h5{
-        font-size: 2em;
-    }
-    #aplikacje h5{
+    /* #umiejetnosc h5{
         font-size: 2em;
     }
     #doswiadczenie h5{
         font-size: 2em;
     }
-    #edukacja h5{
-        font-size: 2em;
-    }
     #umiejetnosc ol li{
-        font-size: 1.5em;
-    }
-    #aplikacje ol li{
         font-size: 1.5em;
     }
     #doswiadczenie ol li{
         font-size: 1.5em;
     }
-    #edukacja ol li{
-        font-size: 1.5em;
-    }
+    #edukacja ul li{
+        font-size: 1.2em;
+    } */
 }
 @media screen and (max-width: 569px){
     .direct-contact-container, .form-wrapper{
@@ -769,37 +757,21 @@ hr{
     .contact h1{
         font-size: 1em;
     }
-}
-@media screen and (max-width: 410px){
-    .send-button{
-      width: 99%;
-    }
-    
-    #umiejetnosc h5{
-        font-size: 1em;
-    }
-    #aplikacje h5{
-        font-size: 1em;
-    }
+
     #doswiadczenie h5{
-        font-size: 1em;
-    }
-    #edukacja h5{
-        font-size: 1em;
-    }
-    #umiejetnosc ol li{
-        font-size: 1em;
-    }
-    #aplikacje ol li{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     #doswiadczenie ol li{
         font-size: 1em;
     }
-    #edukacja ol li{
+    #edukacja ul li{
         font-size: 1em;
     }
-
+}
+@media screen and (max-width: 450px){
+    .send-button{
+      width: 99%;
+    }
     .contact h1{
         font-size: 0.5em;
     }
@@ -828,31 +800,6 @@ hr{
     }
     .about-col-2{
         margin-left: 50px;
-    }
-
-    #umiejetnosc h5{
-        font-size: 1.6em;
-    }
-    #aplikacje h5{
-        font-size: 1.6em;
-    }
-    #doswiadczenie h5{
-        font-size: 1.6em;
-    }
-    #edukacja h5{
-        font-size: 1.6em;
-    }
-    #umiejetnosc ol li{
-        font-size: 1.2em;
-    }
-    #aplikacje ol li{
-        font-size: 1.2em;
-    }
-    #doswiadczenie ol li{
-        font-size: 1.2em;
-    }
-    #edukacja ol li{
-        font-size: 1.2em;
     }
 }
 @media screen and (max-width: 740px) {
@@ -883,27 +830,5 @@ hr{
 
     #umiejetnosc h5{
         font-size: 1.5em;
-    }
-    #aplikacje h5{
-        font-size: 1.5em;
-    }
-    #doswiadczenie h5{
-        font-size: 1.5em;
-    }
-    #edukacja h5{
-        font-size: 1.5em;
-    }
-
-    #umiejetnosc ol li{
-        font-size: 1em;
-    }
-    #aplikacje ol li{
-        font-size: 1em;
-    }
-    #doswiadczenie ol li{
-        font-size: 1em;
-    }
-    #edukacja ol li{
-        font-size: 1em;
     }
 }
