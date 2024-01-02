@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jakub Wiśniewski (ang)</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons/favicon.png">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="stylesheet" href="lightbox.css" type="text/css" media="screen"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <script src="skrypty.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <nav>
+        <h6>Bobsoon</h6>
+        <ul>
+            <li><a class="link-1" href="#home">Home</a></li>
+            <li><a class="link-1" href="#about">About me</a></li>
+            <li><a class="link-1" href="#apps">Apps</a></li>
+            <li><a class="link-1" href="#contact">Contact</a></li>
+        </ul>
+        <button id="translator" onclick="tlumaczpl()">
+          <img src="./img/icons/pl-flaga.png" alt="Tłumacz">
+          <p>Translate to Polish</p>
+        </button>
+    </nav>
+    <main>
+        <section id="home">
+          <h1>Hi, I'm Jakub <br> the programmer you need</h1>
+          <hr>
+          <h4>Feel free to browse through my portfolio.</h4>
+        </section>
+
+        <div id="parallax1"></div>
+        <section id="about">
+          <div class="container">
+            <div class="row">
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p><span style="color: rgb(255, 0, 85);"><b>I'm Kuba</b></span>, but in the online and programming world, I often go by the pseudonym Bobson. I am a second-year student at the ZSMEIE Technical High School with a specialization in programming. I enjoy solving programming and computer-related problems. The world of code fascinates me, along with the possibilities that computer technology opens up for us. Besides individual programming, I love working in a group. Developing projects in a team not only gives me satisfaction from the achieved results but also provides an opportunity to learn from others and share my own ideas. I am open to new challenges and always ready to learn new technologies.
+                <br><br>                
+                I'm also interested in recording and editing videos, as well as playing games such as Sea of Thieves, Minecraft, Euro Truck Simulator 2, and Cyberpunk 2077.
+                </p>
+
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('umiejetnosc')">My skills</p>
+                    <p class="tab-links" onclick="opentab('doswiadczenie')">Experience</p>
+                    <p class="tab-links" onclick="opentab('edukacja')">Education</p>
+                  </div>
+                    <div class="tab-contents active-tab" id="umiejetnosc">
+                        <ul>
+                          <h5>HTML</h5><br>
+                          <div class="skill-box">
+                              <div class="skill-bar">
+                                  <span class="skill-per htmlcss">
+                                      <span class="tooltip">85%</span>
+                                  </span>
+                              </div>
+                          </div>
+                      <h5>CSS</h5><br>
+                          <div class="skill-box">
+                              <div class="skill-bar">
+                                  <span class="skill-per css">
+                                      <span class="tooltip">80%</span>
+                                  </span>
+                              </div>
+                          </div>
+                      <h5>SQL</h5><br>
+                          <div class="skill-box">
+                              <div class="skill-bar">
+                                  <span class="skill-per sql">
+                                      <span class="tooltip">56%</span>
+                                  </span>
+                              </div>
+                          </div>
+                      <h5>JavaScript</h5><br>
+                          <div class="skill-box">
+                              <div class="skill-bar">
+                                  <span class="skill-per javascript">
+                                      <span class="tooltip">19%</span>
+                                  </span>
+                              </div>
+                          </div>
+                      <h5>WPF</h5><br>
+                          <div class="skill-box">
+                              <div class="skill-bar">
+                                  <span class="skill-per wpf">
+                                      <span class="tooltip">17%</span>
+                                  </span>
+                              </div>
+                          </div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="doswiadczenie">
+                      <h5>School talent show of technical skills μElektra</h5>
+                      <hr>
+                        <ol>
+                          <li>Receiving an award for the game "Rumun The Game."</li>
+                        </ol>
+                        <h5>XVIII Bóbr 2023 IT Competition</h5>
+                      <hr>
+                        <ol>
+                          <li>I took part</li>
+                        </ol>
+                    </div>
+                    <div class="tab-contents" id="edukacja">
+                      <h5>Foreign Languages:</h5>
+                      <hr>
+                      <ul>
+                          <li><img src="./img/icons/angielski.png" alt="ang" title="English">English language at B1/B2 level</li>
+                          <li><img src="./img/icons/niemiecki.png" alt="ger" title="German">I am learning German language at school</li>
+                          <li><img src="./img/icons/wloski.png" alt="ita" title="Italian ">I am learning Italian at Duolingo</li>
+                      </ul>
+                      <h5>Certificates:</h5>
+                      <hr>
+                        <ol>
+                            <li>Computer graphics course - in progress</li>
+                        </ol>
+                      <h5>I am currently learning:</h5>
+                      <hr>
+                        <ol>
+                            <li>Java Script</li>
+                            <li>C#</li>
+                            <li>Adobe Animate</li>
+                            <li>Adobe After Effect</li>
+                        </ol>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+        <div id="parallax2"></div>
+
+
+        <section id="apps">
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img src="./img/programs/montage.jpeg" alt="Adobe Premier Pro" class="tlo-program"/>
+                </figure>
+                <div class="article-body">
+                  <h2>Adobe Premier Pro</h2>
+                  <p>I am an intermediate user of Adobe Premiere Pro. My skills include smooth transitions, color correction, text overlays, as well as effective video cutting and sound adjustments, resulting in cohesive and professional video productions.</p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="Adobe Photoshop">
+                <figure>
+                  <img src="./img/programs/photoshop.png" alt="Adobe Photoshop" class="tlo-program"/>
+                </figure>
+                <div class="article-body">
+                  <h2>Adobe Photoshop</h2>
+                  <p>I possess intermediate-level skills in Adobe Photoshop, encompassing cropping, editing, and precise color correction of photos. I adeptly manipulate images to create effective and aesthetically pleasing graphics.</p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="Audacity">
+                <figure>
+                  <img src="./img/programs/audacity.jpg" alt="Audacity" class="tlo-program"/>
+                </figure>
+                <div class="article-body">
+                  <h2>Audacity</h2>
+                  <p>I am proficient in Audacity at an advanced level, specializing in precise sound editing and the addition of various effects, resulting in comprehensive and professional outcomes.</p>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="Krita">
+                <figure>
+                  <img src="./img/programs/krita.jpg" alt="Krita" class="tlo-program"/>
+                </figure>
+                <div class="article-body">
+                  <h2>Krita</h2>
+                  <p>I have advanced skills in Krita, specializing in graphic and character drawing. I operate at an advanced level, using the XP-PEN Deco 01 V2 graphic tablet, enabling me to create high-quality illustrations with precision.</p>
+                  <a class="read-more" onclick="openLightbox(0)">
+                    Check out my projects <span class="sr-only"></span>
+                  </a>
+
+                  <div class="gallery">
+                    <img style="display: none;" class="thumbnail" src="./img/galeria/candy flip.png" alt="Image 1">
+                    <img style="display: none;" class="thumbnail" src="./img/galeria/pijekawe.png" alt="Image 2">
+                    <img style="display: none;" class="thumbnail" src="./img/galeria/bryska.png" alt="Image 3">
+                    <img style="display: none;" class="thumbnail" src="./img/galeria/szpaku ddzppm.png" alt="Image 4">
+                    <img style="display: none;" class="thumbnail" src="./img/galeria/sunflower.png" alt="Image 5">
+                    <img style="display: none;" class="thumbnail" src="./img/galeria/tarcho terror.png" alt="Image 6">
+                </div>
+                <div class="lightbox" id="lightbox">
+                  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+                  <img id="lightbox-img" src="" alt="Lightbox Image">
+                  <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+                  <span class="next" onclick="changeImage(1)">&#10095;</span>
+                </div>
+
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="Aseprite">
+                <figure>
+                  <img src="./img/programs/aseprite.png" alt="Aseprite" class="tlo-program"/>
+                </figure>
+                <div class="article-body">
+                  <h2>Aseprite</h2>
+                  <p>I have advanced skills in Aseprite, specializing in advanced-level pixel art. My knowledge and experience enable me to create precise and aesthetically pleasing works, utilizing the unique capabilities of this tool.</p>
+                </div>
+              </div>
+            </article>
+          </section>
+
+        <div id="parallax3"></div>  
+        <section id="contact">
+            <h1>Please do not hesitate to get in touch with me :3</h1>
+            <hr>  
+          <div class="contact-wrapper">
+            <form id="contact-form" class="form-horizontal" role="form" method="post" action="https://script.google.com/macros/s/AKfycbwddAbvjAqgHD_aCalDwVplYOTZBJSRF1JGZFHHTsFiHN5SKY2eSbDXsCm3vyDDmvFn/exec"> 
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="imie" placeholder="Name" name="imie" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="email" class="form-control" id="email" placeholder="E-mail" name="email" value="" required>
+                </div>
+              </div>
+              <textarea class="form-control" rows="10" placeholder="Write the content of the message" name="wiadomosc" required></textarea>
+              <button class="btn btn-primary send-button" id="submit" type="submit" value="wyslij">SEND</button>
+              <p id="przeslane"></p>
+            </form>
+
+            <div class="direct-contact-container">
+              <ul class="contact-list">
+                <li class="list-item"><span class="gmail"><a href="mailto:bobsonkontakt@gmail.com" title="Send me an email">bobsonkontakt@gmail.com</a></span></li>
+              </ul>
+            <hr>
+              <ul class="social-media-list">
+                <a href="https://github.com/THTxPogromca/" target="_blank" class="contact-icon">
+                  <li>
+                    <img src="./img/icons/github.png" alt="Github" title="Github">
+                  </li>
+                </a>
+
+                <a href="https://www.instagram.com/to_ja_bobson/" target="_blank" class="contact-icon">
+                  <li>
+                    <img src="./img/icons/instagram.png" alt="Instagram" title="Instagram">
+                  </li>
+                </a>
+
+                <a href="https://twitter.com/TPogromca" target="_blank" class="contact-icon">
+                  <li>
+                    <img src="./img/icons/twitter.png" alt="Twitter" title="Twitter">
+                  </li>
+                </a>
+                
+                <a href="https://www.youtube.com/channel/UCULfP2kp4WTx4TcOhr_8V5g" target="_blank" class="contact-icon">
+                  <li>
+                    <img src="./img/icons/youtube.png" alt="YouTube" title="YouTube">
+                  </li>
+                </a>     
+              </ul>
+            <hr>
+            <div class="copyright">&copy; All rights reserved</div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <script src="sheet.js"></script>
+</body>
+</html>
+
+
