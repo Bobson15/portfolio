@@ -757,9 +757,12 @@ hr{
     .contact h1{
         font-size: 1em;
     }
+    #about p{
+        font-size: 1em;
+    }
 
     #doswiadczenie h5{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     #doswiadczenie ol li{
         font-size: 1em;
