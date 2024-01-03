@@ -708,22 +708,6 @@ hr{
       height: 60px;
       line-height: 60px;
     }
-    
-    /* #umiejetnosc h5{
-        font-size: 2em;
-    }
-    #doswiadczenie h5{
-        font-size: 2em;
-    }
-    #umiejetnosc ol li{
-        font-size: 1.5em;
-    }
-    #doswiadczenie ol li{
-        font-size: 1.5em;
-    }
-    #edukacja ul li{
-        font-size: 1.2em;
-    } */
 }
 @media screen and (max-width: 569px){
     .direct-contact-container, .form-wrapper{
@@ -757,19 +741,23 @@ hr{
     .contact h1{
         font-size: 1em;
     }
-    #about p{
-        font-size: 1em;
-    }
 
     #doswiadczenie h5{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     #doswiadczenie ol li{
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+    #edukacja h5{
+        font-size: 1.2em;
     }
     #edukacja ul li{
         font-size: 1em;
     }
+    #edukacja ol li{
+        font-size: 1em;
+    }
+    
 }
 @media screen and (max-width: 450px){
     .send-button{
@@ -822,7 +810,7 @@ hr{
         font-size: 2vh;
     }
     #about p{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .tab-links{
         font-size: 6px;
