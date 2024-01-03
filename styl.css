@@ -767,6 +767,9 @@ hr{
     #edukacja ul li{
         font-size: 1em;
     }
+    #about p{
+        font-size: 1.2em;
+    }
 }
 @media screen and (max-width: 450px){
     .send-button{
@@ -800,10 +803,6 @@ hr{
     }
     .about-col-2{
         margin-left: 50px;
-    }
-    
-    #about p{
-    font-size: 1.4em;
     }
 }
 @media screen and (max-width: 740px) {
