@@ -4,6 +4,9 @@ const prze = document.getElementById('przeslane');
 form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => alert("Dziękuję za skontaktowanie się ze mną. Postaram się jak najszybciej odpowiedzieć :) "))
-    .catch(errror => console.error('Error!', error.message))
+    .then(response => {
+        alert("Dziękuję za skontaktowanie się ze mną. Postaram się jak najszybciej odpowiedzieć :) ");
+        location.reload();
+    })
+    .catch(error => console.error('Error!', error.message))
 })
